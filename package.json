@@ -1,0 +1,19 @@
+{
+  "name": "@errorgamer2000/typed-integers",
+  "version": "1.0.1",
+  "description": "A system used to manage integers with specific memory sizes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
