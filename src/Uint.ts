@@ -10,10 +10,6 @@ abstract class Uint extends TypedInteger {
    */
   protected abstract readonly max: number;
   /**
-   * Whether or not to clamp the values rather than wrap them.
-   */
-  protected abstract readonly clamp: boolean;
-  /**
    * Temporary value of the Uint. Used in bounding.
    */
   private _value: number = 0;
