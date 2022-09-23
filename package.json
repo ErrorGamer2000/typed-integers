@@ -1,6 +1,6 @@
 {
   "name": "@errorgamer2000/typed-integers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A system used to manage integers with specific memory sizes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
