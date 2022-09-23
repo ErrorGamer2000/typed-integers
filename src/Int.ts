@@ -9,10 +9,6 @@ abstract class Int extends TypedInteger {
    */
   protected abstract readonly bounds: [number, number];
   /**
-   * Whether or not to clamp the values rather than wrap them.
-   */
-  protected abstract readonly clamp: boolean;
-  /**
    * Temporary value of the Int. Used in bounding.
    */
   private _value: number = 0;
@@ -59,10 +55,10 @@ abstract class Int extends TypedInteger {
 // Subclasses and other static values.
 namespace Int {
   /**
-   * Get the maximum value of the variable from the number
+   * Get the maximum and minimum values of the variable from the number
    * of bits it will be stored in.
    * @param bits The size in bits.
-   * @returns The maximum value of a Int with the given size.
+   * @returns The maximum and minimum values of a Int with the given size.
    */
   export const valueLimitsFromBits = (bits: number): [number, number] => {
     const range = Math.pow(2, bits) - 1;
