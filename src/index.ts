@@ -1,7 +1,7 @@
 /**
  * Base class for typed integers.
  */
-abstract class TypedInteger {
+export abstract class TypedInteger {
   /**
    * The name of the class, used to format `Object.toString`.
    */
